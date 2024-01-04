@@ -1,0 +1,93 @@
+# intents.json
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hii",
+                "hey",
+                "wake up",
+                "jarvis"
+            ],
+            "responses": [
+                "hello sir",
+                "how are you sir",
+                "always for you sir",
+                "here's your assistant"
+            ]
+        },
+        {
+            "tag": "breakup",
+            "patterns": [
+                "goodbye"
+            ],
+            "responses": [
+                "bye",
+                "I am going",
+                "always for you sir",
+                "It'll be nice to meet you again",
+                "See you later",
+                "Good bye"
+            ]
+        },
+        {
+            "tag": "health",
+            "patterns": [
+                "how are you",
+                "are you fine",
+                "are you good"
+            ],
+            "responses": [
+                "I'm good, sir.",
+                "I'm fine. Thank you for asking, sir.",
+                "I need some fresh air, sir. The weather are so hot.",
+                "I'm working with 100% energy, sir. Please ask me if you have any requirement."
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": [
+                "what is your name",
+                "who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I'm Jarvis, your personal AI assistant.",
+                "You can call me Jarvis.",
+                "I go by the name Jarvis, at your service.",
+                "I'm an AI assistant, and you can refer to me as Jarvis."
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "what is time",
+                "what time is it"
+            ],
+            "responses": [
+                "time"
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "what date is it",
+                "what date it is, what date"
+            ],
+            "responses": [
+                "date"
+            ]
+        },
+        {
+            "tag": "day",
+            "patterns": [
+                "what day is today",
+                "what exactly today is"
+            ],
+            "responses": [
+                "day"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+# ss.py
+key = 'bfc5c5ea5f004c088469227d438a5064'
+key2 = '2ed6b0c8558d2996dcbeedb2e3b32276'
+APIKEY = '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'
